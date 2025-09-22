@@ -16,7 +16,7 @@ Node-RED SI Windows 是一个专为工业自动化领域设计的 Windows 可执
 - 🏭 **工业协议支持**：集成多种工业通信协议
 - 🗄️ **数据库连接**：支持主流数据库连接
 - 🎨 **现代化仪表板**：内置功能丰富的仪表板
-- 💻 **跨平台兼容**：支持 Windows 7/10/11 (x86/x64)
+- 💻 **跨平台兼容**：支持 Windows 7/10/11 (x64)
 
 ## 集成模块
 
@@ -43,7 +43,6 @@ Node-RED SI Windows 是一个专为工业自动化领域设计的 Windows 可执
 ## 系统要求
 
 - Windows 7 Professional x64 或更高版本
-- Windows 7 x86 (32位版本)
 - Windows 10 x64
 - Windows 11 x64
 
@@ -109,4 +108,4 @@ npm run dist
 
 如遇到问题，请提交 Issue 或通过以下方式联系：
 - 提交 GitHub Issue
-- 联系项目维护者
+- 联系项目维护者QQ:2492123056
