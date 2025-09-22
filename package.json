@@ -40,8 +40,12 @@
       "output": "dist"
     },
     "win": {
-      "target": "nsis",
+      "target": "portable",
       "icon": "resources/nodered.ico"
+    },
+    "extraMetadata": {
+      "author": "科控物联",
+      "description": "Node-RED Industrial Edition"
     },
     "nsis": {
       "oneClick": false,
