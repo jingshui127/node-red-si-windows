@@ -2,6 +2,8 @@
   "name": "node-red-si-windows",
   "version": "4.1.0",
   "description": "Node-red portable windows",
+  "version": "4.1.0",
+  "description": "Node-red portable windows",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
@@ -9,6 +11,7 @@
     "build32": "electron-packager . \"Node-RED SI\" --icon=./resources/nodered.ico --platform=win32 --arch=ia32  --out=dist --asar --overwrite --win32metadata.CompanyName=\"科控物联\" --win32metadata.ProductName=\"Node-RED SI\" --win32metadata.FileDescription=\"Node-RED Industrial Edition\" --win32metadata.OriginalFilename=\"Node-RED-SI.exe\" --win32metadata.LegalCopyright=\"Copyright (C) 科控物联\"",
     "dist": "electron-builder --win portable"
   },
+  "author": "科控物联",
   "author": "科控物联",
   "license": "MIT",
   "dependencies": {
@@ -30,6 +33,8 @@
     "rcedit": "^4.0.1"
   },
   "devDependencies": {
+    "electron": "28.0.0",
+    "electron-builder": "^26.0.12",
     "electron": "28.0.0",
     "electron-builder": "^26.0.12",
     "electron-packager": "17.1.1"
