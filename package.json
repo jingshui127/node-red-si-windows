@@ -1,6 +1,6 @@
 {
   "name": "node-red-si-windows",
-  "version": "1.0.0",
+  "version": "4.1.0",
   "description": "Node-red portable windows",
   "main": "main.js",
   "scripts": {
