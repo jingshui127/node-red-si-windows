@@ -30,6 +30,7 @@ module.exports = () => {
     },
     },
     userDir: "./node-red",
+    examplesDir: path.join(__dirname, "examples"),
     functionGlobalContext: {}    // enables global context
   };
 
